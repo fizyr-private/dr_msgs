@@ -9,6 +9,7 @@ find_package(catkin REQUIRED COMPONENTS
 add_service_files(
   FILES
   SendInt.srv
+  GetBool.srv
 )
 
 generate_messages(

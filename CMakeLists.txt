@@ -10,6 +10,7 @@ add_service_files(
   FILES
   SendInt.srv
   GetBool.srv
+  SendBool.srv
 )
 
 generate_messages(

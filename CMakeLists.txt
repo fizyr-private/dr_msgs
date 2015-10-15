@@ -5,6 +5,7 @@ find_package(catkin REQUIRED COMPONENTS
 	message_generation
 	std_msgs
 	geometry_msgs
+	sensor_msgs
 )
 
 add_message_files(
@@ -16,11 +17,11 @@ add_service_files(
 )
 
 generate_messages(
-	DEPENDENCIES geometry_msgs
+	DEPENDENCIES geometry_msgs sensor_msgs
 )
 
 catkin_package(
-	CATKIN_DEPENDS message_runtime geometry_msgs
+	CATKIN_DEPENDS message_runtime geometry_msgs sensor_msgs
 	LIBRARIES ${PROJECT_NAME}
 )
 

@@ -7,5 +7,7 @@ float64 neighbor_distance
 float64 valid_pattern_ratio_threshold
 string tag_frame
 string target_frame
+float64 point_cloud_scale_x
+float64 point_cloud_scale_y
 ---
 geometry_msgs/Transform transform

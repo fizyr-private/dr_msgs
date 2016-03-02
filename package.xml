@@ -3,17 +3,13 @@
 	<name>dr_msgs</name>
 	<version>0.0.0</version>
 	<description>The dr_msgs package</description>
+	<license>all-rights-reserved</license>
 
 	<maintainer email="bcalli@todo.todo">bcalli</maintainer>
-
-	<license>TODO</license>
 
 	<buildtool_depend>catkin</buildtool_depend>
 	<depend>message_generation</depend>
 	<depend>message_runtime</depend>
 	<depend>geometry_msgs</depend>
 	<depend>sensor_msgs</depend>
-
-	<export>
-	</export>
 </package>

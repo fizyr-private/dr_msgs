@@ -5,7 +5,7 @@
 	<description>The dr_msgs package</description>
 	<license>all-rights-reserved</license>
 
-	<maintainer email="bcalli@todo.todo">bcalli</maintainer>
+	<maintainer email="h.gaiser@fizyr.com">Hans Gaiser</maintainer>
 
 	<buildtool_depend>catkin</buildtool_depend>
 	<depend>message_generation</depend>
